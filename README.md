@@ -3,8 +3,8 @@ Chia sẻ kinh nghiệm dùng python (3.6), các thuật toán được học tr
 ## Yêu cầu
 [Python 3.6.*](https://www.python.org/downloads/) - Phải có
 ## Cài đặt
-Click vào **Clone or download** -> **Download ZIP** -> giải nén .rar
-Mở **CMD**, **Shell**, **Terminal**... chạy các lệnh sau 
+* Click vào **Clone or download** -> **Download ZIP** -> giải nén .rar
+* Mở **CMD**, **Shell**, **Terminal**... chạy các lệnh sau 
 ```
 cd đường dẫn tới LearningPython
 python main.py
