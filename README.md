@@ -1,10 +1,10 @@
 # LearningPython
 Chia sẻ kinh nghiệm dùng python (3.6), các thuật toán được học trong môn "Các thuật toán thông minh nhân tạo và ứng dụng"
 ## Yêu cầu
-[Python 3.6.*](https://www.python.org/downloads/)
+[Python 3.6.*](https://www.python.org/downloads/) - Phải có
 ## Cài đặt
-Click vào *Clone or download* -> *Download ZIP* -> giải nén .rar
-Mở *CMD* hoặc *Shell* hoặc *Terminal*... chạy các lệnh sau 
+Click vào **Clone or download** -> **Download ZIP** -> giải nén .rar
+Mở **CMD**, **Shell**, **Terminal**... chạy các lệnh sau 
 ```
 cd đường dẫn tới LearningPython
 python main.py
