@@ -31,6 +31,8 @@ def AStar(start, goal):
         
         # Nếu chưa đi qua thành phố này hoặc chi phi đi từ start -> curCity -> city tốt hơn chi phí trước đó
         if previous[city]['from'] == None or totalCost < cityTotalCost :
+          if q.count(city) != 0: # Nếu đã có city này trong hàng đợi thì xóa nó đi
+            q.remove(city)
           q.append(city) # Thêm vào hàng đợi
           previous[city]['from'] =  curCity # Lưu lại dấu vết
           previous[city]['total_cost'] = totalCost # Cập nhật lại chi phí mới
