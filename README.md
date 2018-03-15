@@ -12,6 +12,7 @@ python main.py
 ## Giải thích
 * **main.py** - File chính của project, dùng để chạy thử
 * **mymap.py** - Chứa bản đồ được sử dụng trong môn "Các thuật toán thông minh nhân tạo và ứng dụng - ĐH KHTN"
+* **mymap.png** - Hình ảnh bản đồ được dùng trong môn "Các thuật toán thông minh nhân tạo và ứng dụng - ĐH KHTN"
 * **modules.py** - Chứa các hàm hỗ trợ cho việc in các bước di chuyển và kết quả ra màn hình
 * **bfs.py** - Chứa thuật toán Breadth-first Search
 * **dfs.py** - Chứa thuật toán Deep-first Search
