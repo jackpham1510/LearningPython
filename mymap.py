@@ -15,6 +15,7 @@ myMap = {
   "Sibiu": {
     "Fagaras": { "cost": 99 },
     "Rimnicu Vilcea": { "cost": 80 },
+    "Oradea": { "cost": 151 },
     "Arad": { "cost": 140 }
   },
   "Oradea": {
