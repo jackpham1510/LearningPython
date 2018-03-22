@@ -30,12 +30,11 @@ def UCS(start, goal):
           q.append(city) # Thêm vào hàng đợi
           previous[city]['from'] =  curCity # Lưu lại dấu vết
           previous[city]['total_cost'] = totalCost # Cập nhật lại chi phí mới
-
+    else:
+      showResultWithAttr(previous, start, goal)
+      return True
+    
     if len(q) == 0: break
     q = queue.deque(aweSomeSort(q, previous)) # Sắp xếp lại hàng đợi tăng dần theo total_cost
 
-  if previous[goal]['from'] != None: # Nếu có thể đi tới goal
-    showResultWithAttr(previous, start, goal)
-    return True
-  else: 
-    return False
+  return False
