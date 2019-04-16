@@ -21,3 +21,6 @@ python main.py
 * **gbfs.py** - Chứa thuật toán Greedy Best-first Search
 * **astar.py** - Chứa thuật toán A*(GBFS + UCS)
 
+## Bản đồ
+
+![mymap.png](mymap.png)
